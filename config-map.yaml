@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-world-cm
+data:
+  user.firstName: "Yogesh"
+  user-details.properties: |
+    user.lastName=Patel
